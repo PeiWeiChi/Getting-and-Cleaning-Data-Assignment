@@ -49,4 +49,4 @@ tidyDataWithAvg=DTwithActivityName [,lapply(.SD,mean),by=.(activityCode,subjectC
 tidyDataWithAvg=setorder(tidyDataWithAvg,subjectCode,activityCode)
 
 # write into text
-write.table(tidyDataWithAvg, "tidyDataWithAvg", row.name=FALSE)
+write.table(tidyDataWithAvg, "tidyDataWithAvg.txt", row.name=FALSE)
