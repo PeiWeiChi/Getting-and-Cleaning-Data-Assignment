@@ -28,7 +28,7 @@ The dataset includes the following files:
 - 'README.md'
 - 'Code Book.md': List of all the variable.
 - 'run_analysis.R': A tidy data set with colunm names
-
+- 'tidyDataWithAvg' : A tidy data set arranged by the program,'run_analysis.R' 
  
 
 
